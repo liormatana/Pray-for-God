@@ -157,6 +157,14 @@ p {
   margin-bottom: 1rem;
 }
 
+
+.p1 {
+  font-size: 150%;
+  margin-top: 0;
+  margin-bottom: 13rem;
+}
+
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
@@ -670,9 +678,9 @@ progress {
     max-width: 1140px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1900px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1900px;
   }
 }
 .row {
@@ -11568,8 +11576,8 @@ footer.footer .social-link:hover {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 30rem;
+  padding-bottom: 30rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead4.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -11582,7 +11590,7 @@ footer.footer .social-link:hover {
 }
 @media (min-width: 992px) {
   .masthead4 {
-    height: 250vh;
+    height: 350vh;
   }
   .masthead4 h1, .masthead4 .h1 {
     font-size: 3.5rem;
